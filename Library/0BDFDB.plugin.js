@@ -875,7 +875,7 @@ module.exports = (_ => {
 					contentClassName: BDFDB.disCNS.changelogcontainer + BDFDB.disCN.modalminicontent,
 					footerDirection: Internal.LibraryComponents.Flex.Direction.HORIZONTAL,
 					children: changeLogEntries.flat(10).filter(n => n),
-					footerChildren: (plugin == BDFDB || plugin == this || PluginStores.loaded[plugin.name] && PluginStores.loaded[plugin.name] == plugin && plugin.author == "DevilBro") && BDFDB.ReactUtils.createElement("div", {
+					footerChildren: (plugin == BDFDB || plugin == this || PluginStores.loaded[plugin.name] && PluginStores.loaded[plugin.name] == plugin && plugin.author == "Cedric") && BDFDB.ReactUtils.createElement("div", {
 						className: BDFDB.disCN.changelogfooter,
 						children: [{
 							href: "https://www.paypal.me/MircoWittrien",
